@@ -11,5 +11,10 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^3.2.0"
-  }
+  },
+
+  "cypress run sample one" : "$(npm bin)/cypress run --spec cypress/integration/sample1.spec.js",
+  "cypress run sample two" : "$(npm bin)/cypress run --spec cypress/integration/sample2.spec.js",
+  "cypress run sample three" : "$(npm bin)/cypress run --spec cypress/integration/sample3.spec.js",
+  "cypress run sample four" : "$(npm bin)/cypress run --spec cypress/integration/sample4.spec.js"
 }
